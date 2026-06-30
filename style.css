@@ -1,0 +1,31 @@
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:linear-gradient(135deg,#ff9fbf,#ffd6e8);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+overflow:hidden;
+}
+.container{
+background:#fff;
+padding:30px;
+border-radius:20px;
+width:90%;
+max-width:600px;
+text-align:center;
+box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+button{
+padding:12px 24px;
+margin:10px;
+border:none;
+border-radius:30px;
+cursor:pointer;
+font-size:18px;
+}
+#yes{background:#ff2d75;color:white;}
+#no{background:#ddd;position:relative;}
+.hidden{display:none;}
+#funny{color:#d1005d;font-weight:bold;}
